@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+.titulo{
+    font-size: xx-large;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.contenedor2{
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+
+.contenedorPassword{
+    font-size: larger;
+    text-align: center;
+}

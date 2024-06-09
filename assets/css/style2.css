@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.contenedorStickers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.verificar{
+    margin: 1%;
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.box img{
+    width: 100%;
+}
